@@ -1,14 +1,31 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "tool":
+    {
+        "jsonpath":
+        {
+            "creator":
+            {
+                "name": "Jayway Inc.",
+                "location":
+                [
+                    "Malmo",
+                    "San Francisco",
+                    "Helsingborg"
+                ]
+            }
+        }
+    },
+ 
+    "book":
+    [
+        {
+            "title": "Beginning JSON",
+            "price": 49.99
+        },
+ 
+        {
+            "title": "JSON at Work",
+            "price": 29.99
+        }
+    ]
 }
